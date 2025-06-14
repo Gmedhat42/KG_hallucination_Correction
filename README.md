@@ -156,8 +156,8 @@ python general_interface.py
 
 ## License
 
-[Add your license information here]
+This software is licensed under the GNU General Public License v3.0.
 
 ## Contact
 
-[Add your contact information here] 
+gmedhat42@gmail.com
