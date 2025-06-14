@@ -7,14 +7,13 @@ This repository contains a system for detecting and correcting hallucinations in
 ```
 .
 ├── prototype/                 # Prototype implementation
-│   ├── app_fixed.py          # Fixed version of the Streamlit interface
-│   ├── interface.py          # User interface implementation
+│   ├── app_fixed.py          # Streamlit interface
 │   ├── main_pipeline.py      # Main pipeline implementation
-│   ├── context_KG.py         # Knowledge Graph context handling
+│   ├── context_KG.py         # Knowledge Graph context retrieval
 │   ├── correct_sentence.py   # Sentence correction logic
-│   ├── vecatara.py          # Vector search implementation
+│   ├── vecatara.py          # Vectara model hallucination detection
 │   ├── extract_triplets.py   # Triple extraction from text
-│   └── construct_sentence.py # Sentence construction utilities
+│   └── construct_sentence.py # Triplets to Sentence construction 
 │
 └── general_pipeline/         # General pipeline implementation
     ├── general_interface.py  # General purpose interface
